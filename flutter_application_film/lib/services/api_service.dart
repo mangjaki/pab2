@@ -31,4 +31,6 @@ class ApiService {
 
     return List<Map<String, dynamic>>.from(data['results']);
   }
+
+  searchMovies(String text) {}
 }
